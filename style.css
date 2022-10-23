@@ -1,0 +1,221 @@
+*{
+    font-family: montserrat;
+    margin: 0;}
+
+/* Menu principal */
+.menu{
+    background-color: #003E2B;
+    letter-spacing: 3px;
+
+    box-sizing: border-box;
+    height: 70px;
+    text-align: center;
+    padding: 20px;
+}
+
+.home{
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+.linha{
+    margin: auto;
+    width: 50px;
+    margin-top: 5px;
+    border-top: 3px solid #FFFFFF;}
+
+/* Banner titulo */
+.banner_titulo{
+    background-image: url(/Imagens/Banner_titulo.png);
+    background-size:cover;
+    height: 300px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.banner_titulo h1{
+    padding-block: 135px;}
+
+/* Conteúdo principal */
+
+.principal{
+    margin: 30px 50px;   }
+
+/* Acesso rapído */
+
+.container{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #A4E2C1;
+    margin-bottom: 30px;
+}
+
+.infos{
+    margin-bottom: 30px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.infos span a{
+    background-color: grey;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+}
+
+.infos span a p{
+    margin-block:50px ;
+    visibility: hidden;
+}
+
+.infos span .texto{
+    display: inline-block;
+    margin-left: 20px;
+    color: #003E2B;
+}
+
+.infos span h1{
+    font-variant: small-caps;}
+.infos span p{
+    font-weight: 500;}
+
+/* O que é o campo harmonico */
+.container_oqueecampo{
+    background-color: #A4E2C1;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.container_oqueecampo h1{
+    font-variant: small-caps;
+    margin-bottom: 5px;
+    color: #003E2B;
+}
+
+.container_oqueecampo div{
+    border: 3px solid #003E2B;
+    width: 85px;
+    margin-bottom: 15px;
+}
+
+.container_oqueecampo span p{
+    color: #003E2B;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom:30px;
+    margin-right: 20%;
+}
+
+.container_oqueecampo span a{
+    display: block;
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 100%;
+    font-size: 20px;
+    color: #003E2B;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    text-decoration: none;
+    padding-block: 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 3px 2px  #00422e59;
+    transition: 0.5s;
+}
+
+.container_oqueecampo span a:hover{
+    background-color: #003E2B;
+    color: #FFFFFF;
+}
+
+/* Acesso rápido */
+.acessoRapido{
+    background-color: #A4E2C1;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: #003E2B;
+}
+
+.acessoRapido h1{
+
+    margin-bottom: 15px;
+}
+
+.botoesEscala{
+    margin:2px 0 10px;
+}
+
+.botoesEscala{
+    display: inline-block;
+    margin-right: 40px;
+}
+.botoesCampo{
+    display: inline-block;
+}
+
+.botoesEscala a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #003E2B;
+    font-weight: 500;
+    background-color:#FFFFFF;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-block:5px;
+    width: 200px;
+}
+.botoesCampo a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #003E2B;
+    font-weight: 500;
+    background-color:#FFFFFF;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-block:5px;
+    width: 200px;
+}
+
+.botoesEscala a,.botoesCampo a{
+    transition: 0.3s;
+    
+}
+
+#linha1,#linha2{
+    display: inline-block;
+    width: 50px;
+    border: 2px solid #003E2B;
+}
+#linha2{
+    margin-bottom: 10px;
+}
+
+.acessoRapido a:hover{
+    background-color: #003E2B;
+    color: #FFFFFF;
+    transform: scale(1.1, 1.1);
+}
+
+/* Footer */
+footer{
+    box-sizing: border-box;
+    background-color: #003E2B;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 500;
+    height: 100px;
+    font-variant: small-caps;
+    padding-top: 40px;
+    font-size: 20px;
+}
