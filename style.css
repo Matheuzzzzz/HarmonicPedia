@@ -1,7 +1,7 @@
+
 *{
     font-family: montserrat;
     margin: 0;}
-
 /* Menu principal */
 .menu{
     background-color: #003E2B;
@@ -84,26 +84,26 @@
     font-weight: 500;}
 
 /* O que é o campo harmonico */
-.container_oqueecampo{
+.apresentacao{
     background-color: #A4E2C1;
     padding: 30px;
     border-radius: 10px;
     margin-bottom: 30px;
 }
 
-.container_oqueecampo h1{
+.apresentacao h1{
     font-variant: small-caps;
     margin-bottom: 5px;
     color: #003E2B;
 }
 
-.container_oqueecampo div{
+.apresentacao div{
     border: 3px solid #003E2B;
     width: 85px;
     margin-bottom: 15px;
 }
 
-.container_oqueecampo span p{
+.apresentacao span p{
     color: #003E2B;
     font-weight: 500;
     letter-spacing: 1px;
@@ -111,7 +111,7 @@
     margin-right: 20%;
 }
 
-.container_oqueecampo span a{
+.apresentacao span a{
     display: block;
     text-align: center;
     background-color: #FFFFFF;
@@ -129,7 +129,7 @@
     transition: 0.5s;
 }
 
-.container_oqueecampo span a:hover{
+.apresentacao span a:hover{
     background-color: #003E2B;
     color: #FFFFFF;
 }
@@ -148,63 +148,28 @@
     margin-bottom: 15px;
 }
 
-.botoesEscala{
-    margin:2px 0 10px;
-}
-
-.botoesEscala{
+.botoes a{
     display: inline-block;
-    margin-right: 40px;
-}
-.botoesCampo{
-    display: inline-block;
-}
-
-.botoesEscala a{
-    display: inline-block;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 2px;
+    background-color: #ffffff;
     color: #003E2B;
-    font-weight: 500;
-    background-color:#FFFFFF;
-    margin-top: 10px;
-    border-radius: 5px;
-    padding-block:5px;
-    width: 200px;
-}
-.botoesCampo a{
-    display: inline-block;
     text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 2px;
-    color: #003E2B;
-    font-weight: 500;
-    background-color:#FFFFFF;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    padding-block:5px;
-    width: 200px;
+    font-variant: small-caps;
+    font-weight:bolder;
+    box-shadow: 0px 3px 5px #003e2b7a;
+
+    border-radius: 10px;
+    width: 40%;
+    margin: 15px auto 0;
+    padding: 10px;
+    font-size: 110%;
+
+    transition: 0.5s;
 }
 
-.botoesEscala a,.botoesCampo a{
-    transition: 0.3s;
-    
-}
-
-#linha1,#linha2{
-    display: inline-block;
-    width: 50px;
-    border: 2px solid #003E2B;
-}
-#linha2{
-    margin-bottom: 10px;
-}
-
-.acessoRapido a:hover{
+.botoes a:hover{
+    transform:scale(1.1,1.1); 
     background-color: #003E2B;
     color: #FFFFFF;
-    transform: scale(1.1, 1.1);
 }
 
 /* Footer */

@@ -1,0 +1,146 @@
+*{
+    font-family: montserrat;
+    margin: 0;
+}
+
+body{    
+    color: #003E2B;
+}
+
+/* Menu principal */
+
+.menu{
+    background-color: #003E2B;
+    text-align: center;
+}
+
+.home{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 20px;
+    font-variant: small-caps;
+    text-align: center;
+    background-color: #003E2B;
+    height: 70px;
+    letter-spacing: 3px;
+}
+
+.linha{
+    margin: auto;
+    width: 50px;
+    margin-top: 5px;
+    border-top: 3px solid #FFFFFF;
+}
+
+/* subtitulo */
+
+.subtitulo{
+    text-align: center;
+    padding: 8px;
+    color: #FFF;
+    font-size: 15px;
+    display: block;
+    background-color: #39A46B;
+}
+
+/* Principal */
+main {
+    margin: 40px 70px;
+}
+
+/* descrição das tabelas */
+
+.descricao,.tabela{
+    background-color: #A4E2C1;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.titulo h1{
+    font-variant: small-caps;
+}
+
+.linha_titulo{
+    
+    margin: 3px 0 20px;
+    border-bottom: 4px solid #003E2B;
+    width: 100px;
+}
+
+.descricao p{
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-right: 15%;
+    margin-bottom: 15px;
+}
+
+/* Tabelas */
+
+.tabela{
+    margin: 0;
+    text-align: left;
+}
+
+.tabela p{
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 120%;   
+    border-radius: 7px;
+    color: #003E2B;
+    background-color: #FFF;
+    box-sizing: border-box;
+    width: 6%;
+    padding-block: 2%;
+    box-shadow: 0px 5px 3px #003e2b5b;
+}
+
+.tabela .titulo{
+    box-shadow: none;
+    background-color: transparent;
+    width: 30%;
+    font-size: 120%;
+    margin-right: 20px;
+}
+
+.re .tons p,.fa .tons p,.la .tons p{
+    background-color: #003E2B;
+    color: #FFF;
+}
+
+.tons p{
+    margin: 0 0 2.5%;
+    font-size: 100% ;
+}
+
+.do .tons p:hover,.mi .tons p:hover,.sol .tons p:hover,.si .tons p:hover{
+    background-color: rgb(207, 207, 207);
+    color: #003E2B;
+}
+
+.tons p:active{
+    transform: scale(1.1,1.1);
+}
+
+.re .tons p:hover,.fa .tons p:hover,.la .tons p:hover{
+    background-color: #002016;
+    color: #FFF;
+}
+
+/* Footer */
+footer{
+    box-sizing: border-box;
+    background-color: #003E2B;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 500;
+    height: 100px;
+    font-variant: small-caps;
+    padding-top: 40px;
+    font-size: 20px;
+}
