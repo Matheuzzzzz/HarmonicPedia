@@ -132,6 +132,7 @@
 .apresentacao span a:hover{
     background-color: #003E2B;
     color: #FFFFFF;
+    text-shadow: 0 0 10px #ffffff;
 }
 
 /* Acesso rápido */
@@ -170,6 +171,7 @@
     transform:scale(1.1,1.1); 
     background-color: #003E2B;
     color: #FFFFFF;
+    text-shadow: 0 0 10px #ffffff94;
 }
 
 /* Footer */
